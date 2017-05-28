@@ -1,0 +1,44 @@
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.slider {
+	background: blue;
+	min-height: 200px;
+	line-height: 100px;
+	overflow: hidden;
+}
+
+
+.slide p {
+	text-align: center;
+	font-size: 38px;
+	color: red;
+	transition: 3s;
+	animation: slide 7s infinite;
+	
+}
+
+
+
+@keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	57%{margin-left: -1600px;}
+	77%{margin-left: -2400px;}
+	97%{margin-left: -3200px;}
+	100%{margin-left: 0px;}
+}
+
+
+
+
+
+
+
+
+
