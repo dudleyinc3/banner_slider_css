@@ -1,38 +1,61 @@
 
-body {
+*{
 	margin: 0;
 	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+p {
+	z-index: 1000;
+	text-align: center;
+	font-size: 38px;
+	color: purple;
+	position: relative;
+	padding-top: 35px;
+	width: 25%;
+	display: inline;	
 }
 
 
 
 .slider {
-	background: blue;
-	min-height: 200px;
+	height: 200px;
+	background: gray;
 	line-height: 100px;
 	overflow: hidden;
+	display: inline;	
+}
+
+.slider figure div{
+	width: 25%;
+	float: left;
+}
+
+.slide div{
+	height: 100px;
+	padding-top: 20px;
+	width: 100%;
+}
+
+.slide #one{	
+	background-color: blue;
+}
+.slide #two{
+	background-color: black;	
+}
+.slide #three{
+	background-color: orange;	
+}
+.slide #four {
+	background-color: yellow;
 }
 
 
-.slide p {
-	text-align: center;
-	font-size: 38px;
-	color: red;
-	transition: 3s;
-	animation: slide 7s infinite;
-	
-}
 
 
 
-@keyframes slide{
-	0%{margin-left: 0px;}
-	17%{margin-left: 0px;}
-	57%{margin-left: -1600px;}
-	77%{margin-left: -2400px;}
-	97%{margin-left: -3200px;}
-	100%{margin-left: 0px;}
-}
+
 
 
 
