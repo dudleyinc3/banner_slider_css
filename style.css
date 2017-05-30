@@ -64,6 +64,8 @@ p {
 	background-color: yellow;
 }
 
+
+
 @keyframes scroll {
 0% { left: 0%; }
 20% { left: 0%; }
@@ -73,8 +75,7 @@ p {
 70% { left: -200%; }
 75% { left: -300%; }
 95% { left: -300%; }
-100% { left: -400%;
-100% {left: 100%} 
+
 }
 
 /* Continuous Scroll Option */
