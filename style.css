@@ -1,85 +1,89 @@
-
-*{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	text-decoration: none;
-}
-
-.slide div{
-	height: 100px;
-	padding-top: 20px;
-	width: 100%;
+* {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
 }
 
 /* Slider */
 
-.slider p{
-	height: 300px;
-	line-height: 100px;
-	overflow: hidden;
-	display: inline;	
-	text-align: center;
-	font-size: 38px;
-	color: purple;
-	width: 25%;
-	position: absolute;
-}
-
 .slider figure {
-	position: absolute;
-	width: 400%;
-	margin: 0;
-	left: 0;
-	animation: 5s scroll linear infinite;
+   position: absolute;
+   width: 400%;
+   margin: 0;
+   left: 0;
+   animation: 5s scroll linear infinite;
 }
-
-.slider div{
-	width: 25%;
-	float: left;
+.slider div {
+   height: 100px;
+   width: 100%;
+   width: 25%;
+   float: left;
 }
-
-.slide #one{	
-	background-color: blue;
+.slider p {
+   height: 300px;
+   line-height: 100px;
+   overflow: hidden;
+   display: inline;
+   text-align: center;
+   font-size: 38px;
+   color: purple;
+   width: 25%;
+   position: absolute;
 }
-.slide #two{
-	background-color: black;
+.slide #one {
+   background-color: blue;
 }
-.slide #three{
-	background-color: orange;	
+.slide #two {
+   background-color: black;
+}
+.slide #three {
+   background-color: orange;
 }
 .slide #four {
-	background-color: yellow;
+   background-color: yellow;
 }
-
-@keyframes scroll {  
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -300%; }
+@keyframes scroll {
+   0% {
+      left: 0%;
+   }
+   20% {
+      left: 0%;
+   }
+   25% {
+      left: -100%;
+   }
+   45% {
+      left: -100%;
+   }
+   50% {
+      left: -200%;
+   }
+   70% {
+      left: -200%;
+   }
+   75% {
+      left: -300%;
+   }
+   95% {
+      left: -300%;
+   }
+   100% {
+      left: -300%;
+   }
 }
-
 
 /* Continuous Scroll Option */
 
-/*
-@keyframes scroll{
+/*@keyframes scroll{
   
   to{left :0;}
   from{left:-300%;}
-}
-*/
+}*/
 
 
 
-
-
-/*different time*/
+/* Different Times */
 
 /*@keyframes scroll {
 0% { left: 0%; }
@@ -91,7 +95,7 @@
 75% { left: -300%; }
 95% { left: -300%; }
 100% { left: -400%; }
-}
+}*/
 
 
 
